@@ -6,7 +6,7 @@ import joblib
 # =========================
 # LOAD MODEL & FITUR
 # =========================
-model = joblib.load("rf_covid_new_cases_model.pkl")
+model = joblib.load("rf_prediksi_covid_new_cases.pkl")
 fitur_prediktor = joblib.load("fitur_prediktor.pkl")
 
 # =========================
