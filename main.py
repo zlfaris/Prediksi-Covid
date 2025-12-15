@@ -7,7 +7,7 @@ import joblib
 # LOAD MODEL & FITUR
 # =========================
 model = joblib.load("rf_prediksi_covid_new_cases.pkl")
-fitur_prediktor = joblib.load("fitur_prediktor.pkl")
+fitur_prediktor = joblib.load("fitur_prediktor_covid.pkl")
 
 # =========================
 # KONFIGURASI HALAMAN
